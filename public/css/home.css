@@ -1,0 +1,9 @@
+.home .banner img {
+    width: 100%;
+  }
+.home p.precio{
+    font-size: 18px;
+}
+.home p.descuento, h3{
+    font-size: 16px;
+}
