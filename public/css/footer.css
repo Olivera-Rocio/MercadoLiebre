@@ -1,9 +1,18 @@
+
+footer{
+    background-color: white;
+    margin: 10px 5px;
+    padding-top: 10px;
+}
 footer div.icono{
     display: block; /*centra*/
     color: var(--Celeste); /*color-medio*/
     font-size: 2em; /*tamaño*/
-    margin: 40px auto 10px; /*margen arriba, costados, abajo*/
+    margin: 35px auto 10px; /*margen arriba, costados, abajo*/
     text-align: center; /*alinea*/
+}
+footer .articulo{
+    padding: 0 7px ;
 }
 
 footer .articulo h4{
@@ -20,5 +29,5 @@ footer .articulo p{
 footer .copyright{
     font-size: 16px;
     color: var(--GrisOscuro);
-    margin: 40px auto 20px;
+    margin: 40px auto 0;
 }

@@ -43,7 +43,7 @@ header div.burger-menu{
     display: block; /*centra*/
     color: rgb(255, 255, 255); /*color-medio*/
     font-size: 25px; 
-    margin: 0 auto; /*margen arriba, costados, abajo*/
+    margin: 0 auto 10px; /*margen arriba, costados, abajo*/
     text-align: center; 
     border-radius: 10%;
 }
