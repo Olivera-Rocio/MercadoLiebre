@@ -1,17 +1,56 @@
-
+main{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .home{
     background-color: var(--GrisClaro);
-}
-.home h2.titulares{
-font-size: 24px;
 }
 
 .home .banner img {
     width: 100%;
   }
+
+.home h2.titulares{
+    font-size: 24px;
+    color: var(--GrisOscuro);
+}
+
+.home .producto{
+    margin: 10px auto;
+    background-color: white;
+}
+
+.home .img-foto{
+    width: 100%
+}
+.home .info-producto{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+.home .logo-envio{
+    width: 45px;
+    height: 45px;
+    padding: 3px 10px 10px 3px;
+    background-color: white;
+    color: var(--Verde);
+    border: solid 1px var(--Verde);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 100%;
+}
 .home p.precio{
     font-size: 18px;
+    color: black;
 }
-.home p.descuento, h3.descripcion{
+.home p.descuento{
     font-size: 16px;
+    color: var(--Verde);
+}
+.home p.descripcion{
+    padding-top: 20px;
+    font-size: 16px;
+    color: var(--GrisOscuro);
 }
