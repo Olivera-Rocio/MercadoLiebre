@@ -55,3 +55,16 @@ header div.burger-menu{
     border-radius: 10%;
 }
 
+/*tablet*/
+@media (min-width: 361px){
+    header nav{
+        display: block;
+        margin-bottom: 10px;
+    }
+    header div.search-bar {
+        width: 200px;
+    }
+    header div.burger-menu{
+        display: none;
+    }
+}
