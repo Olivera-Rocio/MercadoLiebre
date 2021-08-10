@@ -7,7 +7,9 @@ main{
 .home{
     background-color: var(--GrisClaro);
 }
-
+.home .banner{
+    width: 100%;
+}
 .home .banner img {
     width: 100%;
   }
@@ -50,6 +52,7 @@ main{
     color: var(--Verde);
 }
 .home p.descripcion{
+    display: none; /*quita descripcion*/
     padding-top: 20px;
     font-size: 16px;
     color: var(--GrisOscuro);
