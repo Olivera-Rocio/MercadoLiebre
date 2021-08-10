@@ -69,3 +69,10 @@ main{
     }
     
 }
+
+/*desktop*/
+@media (min-width: 769px){
+    .home .producto{
+        margin: 10px auto;
+    }
+}

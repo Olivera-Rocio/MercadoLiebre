@@ -68,3 +68,14 @@ header div.burger-menu{
         display: none;
     }
 }
+
+
+/*desktop*/
+@media (min-width: 769px){
+    header img{
+        width: 38%;
+    }
+    header div.search-bar {
+        width: 200px;
+    }
+}
