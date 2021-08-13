@@ -6,24 +6,20 @@ header img {
     margin: 10px 0 15px 20px;
     width: 50%;
 }
-header section.caja-busqueda{
-    display: flex;
-}
 header div.search-bar{
-    background-color: #ffffff;
-    border: 1px solid var(--GrisOscuro);
-    color: var(--GrisOscuro);
-    width: 70%;
-    padding: 2px;
-    font-size: 16px;
-    margin-left: 10px;
-}
-header div.icono-busqueda{
-    background-color: var(--GrisClaro);
-    border: 1px solid var(--GrisOscuro);
-    width: 20px;
+    width: 65%;
     margin-left: 5px;
-    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+header div input{
+    width: 88%;
+}
+header section div i{
+    font-size: 15px;
+    border: solid 1px var(--GrisOscuro);
+    background-color: var(--GrisClaro);
 }
 header p{
     font-size: 12px;
@@ -50,7 +46,7 @@ header div.burger-menu{
     display: block; /*centra*/
     color: rgb(255, 255, 255); /*color-medio*/
     font-size: 25px; 
-    margin: 30px auto 15px; /*margen arriba, costados, abajo*/
+    margin: 30px auto 10px; /*margen arriba, costados, abajo*/
     text-align: center; 
     border-radius: 10%;
 }
@@ -73,9 +69,6 @@ header div.burger-menu{
 /*desktop*/
 @media (min-width: 769px){
     header img{
-        width: 38%;
-    }
-    header div.search-bar {
-        width: 200px;
+        width: 32%;
     }
 }
