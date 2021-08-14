@@ -12,17 +12,20 @@ footer div.icono{
 }
 footer .articulo{
     padding: 0 29px ;
+    justify-content: center;
 }
 
 footer .articulo h4{
     font-size: 16px;
     color: var(--GrisOscuro);
     text-align: center;
+    width: 100%;
 }
 footer .articulo p{
     font-size: 12px;
     color: var(--GrisOscuro);
     text-align: center;
+    width: 100%;
 }
 
 footer .copyright{

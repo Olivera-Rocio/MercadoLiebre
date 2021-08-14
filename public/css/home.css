@@ -1,22 +1,22 @@
-main{
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 .home{
     background-color: var(--GrisClaro);
 }
-.home .banner{
-    width: 100%;
+.home main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .home .banner img {
     width: 100%;
   }
-
+.home section{
+    display: flex;
+    flex-wrap: wrap;
+}
 .home h2.titulares{
     font-size: 24px;
     color: var(--GrisOscuro);
+    width: 100%;
 }
 
 .home .producto{
@@ -30,30 +30,36 @@ main{
 .home .info-producto{
     border-top: solid 1px #ebebeb;
     padding: 15px;
+    position: relative;
 }
 
 .home .logo-envio{
-    width: 45px;
-    height: 45px;
-    padding: 3px 10px 10px 3px;
-    background-color: white;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
     color: var(--Verde);
     border: solid 1px var(--Verde);
+    background-color: white;
     font-size: 16px;
-    text-align: center;
-    border-radius: 100%;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    position: absolute;
 }
 .home p.precio{
     font-size: 18px;
     color: black;
+    flex-grow: 0.3;
 }
 .home p.descuento{
     font-size: 16px;
     color: var(--Verde);
+    flex-grow: 0.7;
 }
 .home p.descripcion{
     display: none; /*quita descripcion*/
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 16px;
     color: var(--GrisOscuro);
 }
@@ -63,6 +69,7 @@ main{
     .home .producto{
         margin: 6px auto;
         box-shadow: 0px 0px 8px rgb(100, 100, 100);
+        width: 48%;
     }
     .home p.descripcion{
         display: block;
@@ -74,5 +81,6 @@ main{
 @media (min-width: 769px){
     .home .producto{
         margin: 10px auto;
+        width: 21%;
     }
 }
