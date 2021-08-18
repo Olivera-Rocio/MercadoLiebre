@@ -38,10 +38,10 @@ header p.compra{
 header nav{
     display: none;
 }
-
 header nav ul{
+    display: flex;
+    justify-content: space-between;
     font-size: 12px;
-    
 }
 header nav ul li a{
     text-decoration: none; /*quita subrayado*/
@@ -61,7 +61,7 @@ header div.burger-menu{
 }
 
 /*tablet*/
-@media (min-width: 361px){
+@media (min-width: 768px){
     header div.logo {
         width: 32%;
     }
@@ -80,24 +80,27 @@ header div.burger-menu{
         display: flex;
         justify-content: space-between;
     }
-    header nav ul{
-        display: flex;
+    header nav ul.navbar{
+        width: 35%;
     }
-    header nav ul li{
-        margin: 0 2px;
+    header nav ul.login-bar{
+        width: 37%;
     }
     header nav ul li a{
-        font-size: 10px;
+        margin: 0 5px 0 0;
     }
 }
 
 
 /*desktop*/
-@media (min-width: 769px){
+@media (min-width: 1024px){
     header div.search-bar {
         width: 25%;
     }
-    header nav ul li a{
-        font-size: 12px;
+    header nav ul.navbar{
+        width: 25%;
+    }
+    header nav ul.login-bar{
+        width: 27%;
     }
 }
