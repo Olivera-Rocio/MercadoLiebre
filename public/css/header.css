@@ -61,7 +61,7 @@ header div.burger-menu{
 }
 
 /*tablet*/
-@media (min-width: 361px){
+@media (min-width: 768px){
     header div.logo {
         width: 32%;
     }
@@ -84,20 +84,14 @@ header div.burger-menu{
         display: flex;
     }
     header nav ul li{
-        margin: 0 2px;
-    }
-    header nav ul li a{
-        font-size: 10px;
+        margin: 0 10px;
     }
 }
 
 
 /*desktop*/
-@media (min-width: 769px){
+@media (min-width: 1024px){
     header div.search-bar {
         width: 25%;
-    }
-    header nav ul li a{
-        font-size: 12px;
     }
 }
