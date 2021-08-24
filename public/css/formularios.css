@@ -1,0 +1,79 @@
+.register-login{
+    background-color: var(--GrisClaro);
+}
+.register-login .banner img {
+    display: none;
+}
+
+/*contenedor general*/
+.register-login div.contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+
+}
+
+.register-login div.contenedor h2{
+    text-align: center;
+    text-transform:uppercase;
+    margin: 25px 0;
+    text-shadow: #A3A3A3 3px 3px 3px;
+}
+
+/*contenedor input*/
+.register-login div.contenedor div.container-input{
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+}
+.register-login div.contenedor div.container-input-click{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+.register-login div.contenedor div.container-input-archivo{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/*inputs*/
+.register-login div.contenedor div.container-input input.text{
+    width: 100%;
+}
+.register-login div.contenedor div.container-input-click .radio{
+    margin: 0 20px;
+}
+.register-login div.contenedor div.container-input-click .check{
+    margin: 0 20px;
+}
+.register-login div.contenedor div.container-input-archivo input.archivo{
+    width: 100%;
+    padding: 5px 0;
+}
+
+/*labels*/
+.register-login div.contenedor div.container-input label{
+    margin-bottom: 10px;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+/*botones*/
+.register-login div.contenedor div.container-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.register-login div.contenedor div.container-buttons button{
+    color: white;
+    cursor: pointer; /*muestra cursor manito*/
+}
+.register-login div.contenedor div.container-buttons button.btn-rojo{
+    background-color: rgb(167, 26, 26);
+}
+.register-login div.contenedor div.container-buttons button.btn-verde{
+    background-color: var(--Verde);
+}
+
+/**/

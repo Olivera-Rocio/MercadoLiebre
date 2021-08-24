@@ -10,17 +10,19 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 rel="stylesheet" />
 </head>
-<body class="home">
+<body class="register-login">
 <header>
     <div class="logo-search-compra"> 
         <div class="logo">
             <a href="/"><img src="/image/logo-mercado-liebre.svg" alt="logo"></a>
         </div>
         <div class="search-bar" >
-            <input placeholder=" Buscar productos, marcas " type="search">
-            <i class="fas fa-search"></i>
+            <form action="">
+                <input type="text" name="buscar" placeholder=" Buscar productos, marca">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
         </div>
-    <p class="compra"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        <p class="compra"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
     </div>
     <nav>
         <ul class="navbar">
@@ -43,6 +45,88 @@ rel="stylesheet" />
         <img src="/image/img-home-banner.jpg" alt="">
     </section>
 <main>
+
+    <div class="contenedor">
+        <h2>Registrate</h2>
+        <form action="">
+            <!--nombre-->
+            <div class="container-input">
+                <label for="nombre">Nombre y apellido:</label>
+                <input class="text" id="nombre" type="text" placeholder="Nombre y apellido" name="nombre">
+            </div>
+
+            <!--usuario-->
+            <div class="container-input">
+                <label for="usuario">Nombre de usuari@:</label>
+                <input class="text" id="usuario" type="text" placeholder="Nombre de usuari@" name="usuario">
+            </div>
+
+            <!--nacimiento-->
+            <h3>Fecha de nacimiento</h3>
+            <div class="container-input">
+                <input class="text" type="date" name="date">
+            </div>
+
+            <!--domicilio-->
+            <div class="container-input">
+                <label for="domicilio">Domicilio:</label>
+                <input class="text" id="domicilio" type="text" name="domicilio" placeholder="Domicilio">
+            </div>
+            
+            <!--perfiles-->
+            <h3>Perfil de usuario:</h3>
+            <div class="container-input-click">
+                <input class="radio" type="radio" name="perfil" value="comprador" id="comprador"><label 
+                for="comprador">Comprador</label>
+
+                <input class="radio" type="radio" name="perfil" value="vendedor" id="vendedor"><label 
+                for="vendedor">Vendedor</label>
+            </div>
+
+            <!--intereses-->
+            <h3>Intereses:</h3>
+            <div class="container-input-click">
+                <input class="check" type="checkbox" name="intereses" value="electro" id="electro"><label for="electro">Electro</label>
+            </div>
+            <div class="container-input-click">
+                <input class="check" type="checkbox" name="intereses" value="moda" id="moda"><label for="moda">Moda</label>
+            </div>
+            <div class="container-input-click">
+                <input class="check" type="checkbox" name="intereses" value="hogar" id="hogar"><label for="hogar">Hogar</label>
+            </div>
+            <div class="container-input-click">
+                <input class="check" type="checkbox" name="intereses" value="jugueteria" id="jugueteria"><label for="jugueteria">Jugueteria</label>
+            </div>
+            <div class="container-input-click">
+                <input class="check" type="checkbox" name="intereses" value="vida sana" id="vida sana"><label for="vida sana">Vida sana</label>
+            </div>
+
+            <!--foto de perfil-->
+            <h3>Foto de perfil</h3>
+            <div class="container-input-archivo">
+                <input class="archivo" type="file" name="img">
+            </div>
+
+            <!--contraseña-->
+            <div class="container-input">
+                <label for="contraseña">Contraseña:</label>
+                <input class="text" id="contraseña" type="password" name="pass"placeholder="Contraseña" minlength="8">
+            </div>
+
+            <!--reptir contraseña-->
+            <div class="container-input">
+                <label for="repetir contraseña">Repetir contraseña:</label>
+                <input class="text" id="repetir contraseña" type="password" name=" repeat-pass"placeholder="Repetir contraseña" minlength="8">
+            </div>
+
+            <!--botones-->
+            <div class="container-buttons">
+                <button class="btn-verde" type="submit">Enviar</button>
+                <button class="btn-rojo" type="submit">Resetear</button>
+            </div>
+
+        </form>
+    </div>
 
 </main>
 <footer>

@@ -13,22 +13,28 @@ header div.logo {
     width: 48%;
 }
 header div.search-bar{
+    width: 48%;
+}
+header div.search-bar form{
     display: flex;
-    justify-content: space-between;
-    width: 35%;
-    height: 26px;
-    padding: 3px; 
-    background-color: white;
-    border-radius: 10px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 header div.search-bar input{
-    width: 88%;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    width: 70%;
+    flex-grow: 1;
     border: none;
 }
-header div.search-bar i{
-    margin-right: 2px;
-    padding-top: 2px;
+header div.search-bar button {
+    background-color: white;
     color: var(--GrisOscuro);
+    border-radius: 0 5px 5px 0;
+    padding: 5px;
+    align-items: center;
+    width: 15%;
+    border: none;
 }
 header p.compra{
     font-size: 12px;

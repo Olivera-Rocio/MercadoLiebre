@@ -12,6 +12,12 @@ li{
     list-style: none; /*quita viñeta*/
 }
 
+/*inputs*/
+.register-login input, .register-login button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
 /*colores*/
 :root{
     --Amarillo: #EAC926;
@@ -28,3 +34,4 @@ Titulares (Basado en tu última visita/Ofertas): 24px
 Precios: 18px
 Descuentos: 16px
 Descripciones: 16px*/
+
