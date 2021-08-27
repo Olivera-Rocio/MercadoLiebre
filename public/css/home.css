@@ -22,6 +22,10 @@
 .home main section article.producto{
     margin: 10px auto;
     background-color: white;
+    transition: all ease .3s;
+}
+.home main section article.producto:hover{
+    box-shadow: 0px 0px 8px rgb(100, 100, 100);
 }
 
 .home main section article img.img-foto{
@@ -46,7 +50,13 @@
     right: 20px;
     top: -15px;
     position: absolute;
+    transition: all ease .3s;
 }
+.home main section article:hover div.logo-envio{
+    box-shadow: 0px 0px 5px var(--Verde);
+    transform: rotate(360deg);
+}
+
 .home main section article div.prec-desc{
     display: flex;
 }
@@ -61,23 +71,23 @@
     flex-grow: 0.7;
 }
 .home main section article div p.descripcion{
-    display: none; /*quita descripcion*/
-    padding-top: 10px;
+    height: 0;
     font-size: 16px;
     color: var(--GrisOscuro);
+    transition: all ease .3s;
+    overflow: hidden; 
+}
+.home main section article:hover div p.descripcion{
+    height: 20px;
+    margin-top: 10px;
 }
 
 /*tablet*/
 @media (min-width: 768px){
     .home main section article.producto{
         margin: 6px auto;
-        box-shadow: 0px 0px 8px rgb(100, 100, 100);
         width: 48%;
     }
-    .home main section article div p.descripcion{
-        display: block;
-    }
-    
 }
 
 /*desktop*/

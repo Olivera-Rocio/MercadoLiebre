@@ -3,15 +3,20 @@ footer{
     margin: 10px 5px 5px;
     padding-top: 10px;
 }
-footer div.icono{
+
+footer div section.articulo i{
     display: block; /*centra*/
     color: var(--Celeste); /*color-medio*/
     font-size: 2em; /*tamaño*/
     margin: 35px auto 10px; /*margen arriba, costados, abajo*/
     text-align: center; /*alinea*/
+    transition: color ease .4s;
 }
+footer div section.articulo i:hover{
+    color: var(--Azul);
+}
+
 footer .articulo{
-    padding: 0 29px ;
     justify-content: center;
 }
 
@@ -32,5 +37,17 @@ footer .copyright{
     font-size: 12px;
     color: var(--GrisOscuro);
     padding-bottom: 20px;
-    margin: 40px auto 0;
+    margin: 30px auto 0;
+}
+
+@media (min-width: 1024px){
+    footer div.caja-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer div section.articulo{
+        width: 33%;
+        padding: 0 25px;
+    }
 }
