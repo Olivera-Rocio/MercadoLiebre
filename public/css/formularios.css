@@ -70,10 +70,18 @@
     cursor: pointer; /*muestra cursor manito*/
 }
 .register-login div.contenedor div.container-buttons button.btn-rojo{
-    background-color: rgb(167, 26, 26);
+    width: 80px;
+    background-color: rgb(172, 35, 35);
+    transition: background-color linear .3s;
 }
-.register-login div.contenedor div.container-buttons button.btn-verde{
-    background-color: var(--Verde);
+.register-login div.contenedor div.container-buttons button.btn-rojo:hover{
+    background-color: rgb(128, 15, 15)
 }
-
-/**/
+.register-login div.contenedor div.container-buttons button.btn-celeste{
+    width: 80px;
+    background-color: var(--Celeste);
+    transition: background-color linear .3s;
+}
+.register-login div.contenedor div.container-buttons button.btn-celeste:hover{
+    background-color: #0022AA;
+}
